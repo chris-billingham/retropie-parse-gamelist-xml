@@ -2,7 +2,7 @@ library(xml2)
 library(tidyverse)
 
 # For any element of a list, if that element is NULL as it isn't present
-# replace with an NA.
+# replace with an NA
 list_extract_null <- function(list_all, location) {
   
   # extract the location element of the list
